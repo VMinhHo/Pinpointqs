@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable icon_menu
+drawable icon_robotcontroller
+id RelativeLayout
+id cameraMonitorViewId
+id entire_screen
+id included_header
+id menu_buttons
+id monitorContainer
+id robotIcon
+id textDeviceName
+id textErrorMessage
+id textGamepad1
+id textGamepad2
+id textNetworkConnectionStatus
+id textOpMode
+id textRobotStatus
+id top_bar
+id webViewBlocksRuntime
+layout activity_ftc_controller

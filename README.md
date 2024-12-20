@@ -1,22 +1,5 @@
-# SparkFun OTOS Quickstart for Roadrunner 1.0
 
-The SparkFun OTOS or Optical Tracking Odometry Sensor is an optical-based odometry sensor with an integrated IMU.
-This repository allows teams to integrate it into Roadrunner as a drop-in replacement.
 
-## Notes and Warnings
-Ensure that your sensor is properly mounted 10mm above the ground using the directions on the product page.
-
-The OTOS sensor is designed to ONLY work on official field tiles.
-Ensure that all tuning is performed on them. 
-(If you have nothing else to test on, it seems to also be able to track a hardwood floor as well.
-However, tuning numbers will likely be different between them.)
-
-The custom localization is implemented using the SparkFunOTOSDrive class, which *extends* MecanumDrive.
-This means that all of RoadRunner's standard tuning should remain in MecanumDrive, but you should use SparkFunOTOSDrive
-in your OpModes.
-
-~~I eventually plan to PR this in some form once it's been more extensively tested.~~ 
-11/13/24 edit: I have opened PRs for the underlying library changes required for my integration, but they have not been merged; it seems like rbrott would prefer an official integration to rethink the tuning process entirely (which is reasonable but not something I personally have the time/knowledge for). See https://github.com/acmerobotics/road-runner-ftc/issues/8 and the linked PR's for further discussion.
 
 ## When things go wrong…
 This quickstart has not been extensively tested, and you are likely to encounter bugs and issues. 

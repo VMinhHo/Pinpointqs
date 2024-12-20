@@ -17,7 +17,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.Pose2D;
 import org.firstinspires.ftc.teamcode.messages.PoseMessage;
-
+// TODO: Measure offsets of odo-wheels from center of bot. Add in config an imu named "pinpoint". Make opmodes off pinPointDrive
 /**
  * Experimental extension of MecanumDrive that uses the Gobilda Pinpoint sensor for localization.
  * <p>
